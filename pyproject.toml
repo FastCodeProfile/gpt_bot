@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gpt-bot"
+version = "0.1.0"
+description = ""
+authors = ["fastcode <fast.code.auth@gmail.com>"]
+readme = "README.md"
+packages = [{include = "gpt_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytelegrambotapi = "^4.12.0"
+aiohttp = "^3.8.4"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
